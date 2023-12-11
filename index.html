@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pedido de Stickers</title>
+</head>
+<body>
+    <h1> Pagina de Stickers</h1>
+    
+    <h3>puedes llevar hasta 10 stickers </h3>
+    
+    <div class="opcion-sticker">
+        <div class="sticker">
+            <img src="assets/img/img1.jpg" alt="botella">
+            <br>
+            <label for="foto1">cantidad:</label>
+            <input type="number" id="foto1" value="0" min="0" max="10">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets/img/img2.jpg" alt="copa">
+            <br>
+            <label for="foto2">cantidad:</label>
+            <input type="number" id="foto2" value="0" min="0" max="10">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets/img/img3.jpg" alt="shop">
+            <br>
+            <label for="foto3">cantidad:</label>
+            <input type="number" id="foto3" value="0" min="0" max="10">
+        </div>
+    </div>
+
+    <p class="resultado"></p>
+
+    <p>
+    <button onclick="pedido()">hacer pedido</button>
+    </p>
+  
+</body>
+
+<script defer src="script.js"></script>
+
+</html>
